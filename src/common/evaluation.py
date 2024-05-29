@@ -2,8 +2,8 @@ from typing import List, Tuple
 
 import numpy as np
 
-from common.constants import PERSONALITY_TYPES
-from config import COARSE_CLASSIFICATION
+from src.common.constants import PERSONALITY_TYPES
+from src.config import COARSE_CLASSIFICATION
 
 
 def get_personality_class_from_response(response: str) -> str:

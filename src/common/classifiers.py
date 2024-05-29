@@ -5,8 +5,8 @@ from typing import List
 import openai
 from tqdm import tqdm
 
-from common.constants import PERSONALITY_TYPES
-from config import DEVICE
+from src.common.constants import PERSONALITY_TYPES
+from src.config import DEVICE
 from dataset import format_datapoint
 
 

@@ -5,9 +5,9 @@ from datasets import Dataset
 import pandas as pd
 from sklearn.model_selection import train_test_split
 
-from common.constants import INSTRUCTION_TEMPLATE, LETTERS_TO_WORDS, PERSONALITY_TYPES, \
+from src.common.constants import INSTRUCTION_TEMPLATE, LETTERS_TO_WORDS, PERSONALITY_TYPES, \
     RESPONSE_TEMPLATE
-from config import COARSE_CLASSIFICATION, REMOVE_LINKS, REMOVE_PERSONALITY_TYPES
+from src.config import COARSE_CLASSIFICATION, REMOVE_LINKS, REMOVE_PERSONALITY_TYPES
 
 
 def load_data(data_path):
